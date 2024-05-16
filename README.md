@@ -34,7 +34,7 @@ jobs:
       uses: actions/checkout@v4
     - name: Update file
       id: update_file
-      uses: TheLastProject/keep-remote-file-locally-up-to-date-action@v1
+      uses: neilstudd/keep-remote-file-locally-up-to-date-action@main
       with:
         url: https://example.com/index.html
         file_in_repo: example/index.html
